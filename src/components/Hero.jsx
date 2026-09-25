@@ -1,12 +1,18 @@
 function Hero() {
     return (
-        <section className="relative h-screen overflow-hidden bg-black">
+        <section className="
+  relative
+  h-162.5
+  overflow-hidden
+  bg-black
+  md:h-screen
+">
 
             <div className="absolute top-16 bottom-0 left-0 right-0 z-0">
                 <img
-                    src="/img/hero.jpg"
-                    alt="iPhone 17"
-                    className="
+  src="/img/hero.jpg"
+  alt="iPhone 17"
+  className="
     w-full
     h-auto
     object-contain
@@ -15,16 +21,19 @@ function Hero() {
     md:h-full
     md:object-cover
   "
-                />
+/>
 
                 <div className="
-                    absolute
-                    inset-0
-                    bg-linear-to-b
-                    from-black/30
-                    via-transparent
-                    to-black/80
-                "></div>
+  absolute
+  top-16
+  left-0
+  right-0
+  h-125
+  z-0
+  overflow-hidden
+  md:bottom-0
+  md:h-auto
+"></div>
             </div>
 
             <div className="
