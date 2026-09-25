@@ -14,11 +14,9 @@ function Hero() {
   alt="iPhone 17"
   className="
     w-full
-    h-auto
-    object-contain
-    object-center
+    h-full
+    object-fill
     opacity-90
-    md:h-full
     md:object-cover
   "
 />
@@ -28,11 +26,9 @@ function Hero() {
   top-16
   left-0
   right-0
-  h-125
+  bottom-0
   z-0
   overflow-hidden
-  md:bottom-0
-  md:h-auto
 "></div>
             </div>
 
