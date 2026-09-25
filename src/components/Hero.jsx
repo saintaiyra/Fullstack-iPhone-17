@@ -16,8 +16,10 @@ function Hero() {
     w-full
     h-full
     object-fill
+    scale-x-[1.08]
+    origin-center
     opacity-90
-    md:object-cover
+    md:scale-x-100
   "
 />
 
