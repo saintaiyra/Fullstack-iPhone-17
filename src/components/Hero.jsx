@@ -7,13 +7,14 @@ function Hero() {
                     src="/img/hero.jpg"
                     alt="iPhone 17"
                     className="
-                        w-full
-                        h-full
-                        object-contain
-                        object-center
-                        opacity-90
-                        md:object-cover
-                    "
+    w-full
+    h-auto
+    object-contain
+    object-center
+    opacity-90
+    md:h-full
+    md:object-cover
+  "
                 />
 
                 <div className="
